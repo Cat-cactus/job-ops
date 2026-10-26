@@ -92,6 +92,9 @@ services:
         - path: ./extractors/freehire/src
           target: /app/extractors/freehire/src
           action: sync+restart
+        - path: ./extractors/francetravail/src
+          target: /app/extractors/francetravail/src
+          action: sync+restart
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:3001/health"]

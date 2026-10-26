@@ -66,6 +66,19 @@ describe("extractor deployment config", () => {
     );
   });
 
+  it("ships the France Travail extractor in Docker runtime images", async () => {
+    const dockerfile = await readFile(resolve(process.cwd(), "../Dockerfile"), {
+      encoding: "utf8",
+    });
+
+    expect(dockerfile).toContain(
+      "COPY extractors/francetravail/package*.json ./extractors/francetravail/",
+    );
+    expect(dockerfile).toContain(
+      "COPY extractors/francetravail ./extractors/francetravail",
+    );
+  });
+
   it("does not install a vanilla Node Playwright Firefox binary", async () => {
     // Camoufox is the only supported browser in production. The vanilla Firefox
     // fallback was removed so that a missing Camoufox binary surfaces as a hard

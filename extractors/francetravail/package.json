@@ -1,0 +1,13 @@
+{
+  "name": "francetravail-extractor",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "France Travail extractor backed by the official Offres d'emploi v2 API",
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "~5.9.0"
+  },
+  "scripts": {
+    "check:types": "tsc --noEmit"
+  }
+}

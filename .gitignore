@@ -32,3 +32,6 @@ tmp/
 
 # Runtime storage artifacts
 orchestrator/storage
+
+# Personal profile and notes (never committed)
+perso/

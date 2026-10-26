@@ -90,6 +90,7 @@ COPY extractors/naukri/package*.json ./extractors/naukri/
 COPY extractors/startupjobs/package*.json ./extractors/startupjobs/
 COPY extractors/workingnomads/package*.json ./extractors/workingnomads/
 COPY extractors/golangjobs/package*.json ./extractors/golangjobs/
+COPY extractors/francetravail/package*.json ./extractors/francetravail/
 COPY extractors/ukvisajobs/package*.json ./extractors/ukvisajobs/
 COPY extractors/seek/package*.json ./extractors/seek/
 COPY extractors/fiveamsat/package*.json ./extractors/fiveamsat/
@@ -120,6 +121,7 @@ COPY extractors/naukri ./extractors/naukri
 COPY extractors/startupjobs ./extractors/startupjobs
 COPY extractors/workingnomads ./extractors/workingnomads
 COPY extractors/golangjobs ./extractors/golangjobs
+COPY extractors/francetravail ./extractors/francetravail
 COPY extractors/ukvisajobs ./extractors/ukvisajobs
 COPY extractors/seek ./extractors/seek
 COPY extractors/fiveamsat ./extractors/fiveamsat
@@ -168,6 +170,7 @@ COPY extractors/naukri/package*.json ./extractors/naukri/
 COPY extractors/startupjobs/package*.json ./extractors/startupjobs/
 COPY extractors/workingnomads/package*.json ./extractors/workingnomads/
 COPY extractors/golangjobs/package*.json ./extractors/golangjobs/
+COPY extractors/francetravail/package*.json ./extractors/francetravail/
 COPY extractors/ukvisajobs/package*.json ./extractors/ukvisajobs/
 COPY extractors/seek/package*.json ./extractors/seek/
 COPY extractors/fiveamsat/package*.json ./extractors/fiveamsat/
@@ -263,6 +266,7 @@ COPY extractors/naukri ./extractors/naukri
 COPY extractors/startupjobs ./extractors/startupjobs
 COPY extractors/workingnomads ./extractors/workingnomads
 COPY extractors/golangjobs ./extractors/golangjobs
+COPY extractors/francetravail ./extractors/francetravail
 COPY extractors/ukvisajobs ./extractors/ukvisajobs
 COPY extractors/seek ./extractors/seek
 COPY extractors/fiveamsat ./extractors/fiveamsat
